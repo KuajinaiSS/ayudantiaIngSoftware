@@ -1,0 +1,36 @@
+
+h1{
+    color: red;
+}
+
+p{
+    color: blue;
+}
+
+#principal {
+    color: blue;
+    text-align: center;
+}
+
+/* Selector Universal (menor prioridad)*/
+*{
+    /* font-size: 30px; */
+}
+
+/* Selector por clase */
+
+.centro {
+    text-align: center;
+}
+
+.colorVerde{
+    color: green;
+}
+
+/* Cuando el cursos se coloce encima de h1 */
+h1:hover{
+    color: black;
+    text-align: center;
+
+}
+
