@@ -23,6 +23,7 @@
         <li>Nombre: el yo</li>
         <li>Edad: XD</li>
         <li>Pais: CHile</li>
+        <a href="{{ route('register')}}">Register</a>
     </ul>
 <hr>
     <form action="" method="POST">
